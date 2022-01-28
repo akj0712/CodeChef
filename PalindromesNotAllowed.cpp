@@ -28,8 +28,8 @@ void solve(){
 	FOR(i, n){
 		if (ind == 26)
 			ind = 0;
-			cout << char(ind + 97);
-			ind++;
+		cout << char(ind + 97);
+		ind++;
 	}
 	cout << "\n";
 
