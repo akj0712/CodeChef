@@ -29,6 +29,11 @@ void solve(){
 	ll n;
 	cin >> n;
 	ll a[n];
+	if (n == 2 )
+	{
+		cout << -1 << "\n";
+		return;
+	}
 	if (n%2 == 1)
 	{
 		int x = n;
